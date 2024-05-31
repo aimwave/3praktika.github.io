@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3 Работа Куцов</title>
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="page-container">
+      <header class="header">
+        <div class="header__content">
+          <div class="header__logo">
+            <img src="assets/img/logo.png" alt="logo" />
+          </div>
+          <ul class="header__nav">
+            <li class="header__nav-item">
+              <span>Market</span><img src="/assets/img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <span>Trade</span><img src="/assets/img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <span>Earn</span><img src="/assets/img/arrow.svg" alt="" />
+            </li>
+            <li class="header__nav-item">
+              <span>About</span>
+            </li>
+            <li class="header__nav-item">
+              <span>Career</span>
+            </li>
+          </ul>
+          <div class="header__end">
+            <button class="header__logIn" id="loginBtn">Log In</button>
+
+            <div class="burger-menu">
+              <img
+                class="header__menuIcon"
+                src="/assets/icons/Menu.svg"
+                id="burgerIcon"
+              />
+              <ul class="menu" id="menu">
+                <li class="header__nav-item">
+                  <span>Market</span><img src="/assets/img/arrow.svg" alt="" />
+                </li>
+                <li class="header__nav-item">
+                  <span>Trade</span><img src="/assets/img/arrow.svg" alt="" />
+                </li>
+                <li class="header__nav-item">
+                  <span>Earn</span><img src="/assets/img/arrow.svg" alt="" />
+                </li>
+                <li class="header__nav-item"><span>About</span></li>
+                <li class="header__nav-item"><span>Career</span></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div id="myModal" class="modal">
+        <div class="modal__inner">
+          <div class="modal__content">
+            <p class="modal__title">Login</p>
+            <form class="modal__form">
+              <div class="modal__input">
+                <label for="email">Email or Phone</label>
+                <input placeholder="Type Here" name="email" type="text" />
+              </div>
+              <div class="modal__input">
+                <label for="password">Password</label>
+                <input
+                  placeholder="Type Here"
+                  name="password"
+                  type="password"
+                  id="password"
+                />
+                <img
+                  id="eye"
+                  class="modal__input-show"
+                  src="/assets/icons/CloseEye.svg"
+                  alt="show"
+                />
+              </div>
+              <div class="modal__actions">
+                <button type="submit">Login</button>
+                <span>Forgot Password?</span>
+              </div>
+              <p class="modal__register">
+                Don’t Have an Account?<span> Sign Up Here</span>
+              </p>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="banner">
+        <div class="banner__content">
+          <div class="banner__content-text">
+            <span class="banner__content-tag">Crypto Brains</span>
+            <div class="banner__content-title">
+              Buy & Sell Crypto Easy With Crypto Brains
+            </div>
+
+            <hr class="banner__content-line" />
+
+            <p class="banner__content-desc">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout.
+            </p>
+
+            <div class="banner__content-buttons">
+              <button class="market__button">Start Now</button>
+              <button class="button--transparent">Beginner’s Guide</button>
+            </div>
+          </div>
+          <img src="assets/img/comp.png" class="banner__content-img" />
+        </div>
+        <ul class="banner__market">
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+          <li class="banner__market-item">
+            <div class="banner__market-heading">
+              BTC / INR
+              <span>
+                <img src="/assets/icons/ArrowTop.svg" />
+                5.76%
+              </span>
+            </div>
+
+            ₹ 28,214,25.341
+          </li>
+          <hr class="vertical" />
+        </ul>
+      </div>
+      <div id="tab-1" class="market">
+        <div class="market__head">
+          <h2>Market Trends</h2>
+          <div class="market__tabs">
+            <button
+              type="button"
+              class="market__tabs-item market__tabs-item--active"
+              data-target-id="0"
+            >
+              All
+            </button>
+            <button type="button" class="market__tabs-item" data-target-id="1">
+              Top Gainers
+            </button>
+            <button type="button" class="market__tabs-item" data-target-id="2">
+              Top Losers
+            </button>
+          </div>
+        </div>
+        <hr />
+        <div class="market__coins market__coins-show" data-id="0">
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTC.png" />
+            <span class="market__coin-name">Bitcoin / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 28,214,25.341</span>
+            <img src="/assets/icons/coins/graph/BTC.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTS.png" />
+            <span class="market__coin-name">BTS / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 2,541.12</span>
+            <img src="/assets/icons/coins/graph/BTS.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/DGD.png" />
+            <span class="market__coin-name">DGD / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 284.64</span>
+            <img src="/assets/icons/coins/graph/DGD.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETHOS.png" />
+            <span class="market__coin-name">Ethos / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 1,146,25.96</span>
+            <img src="/assets/icons/coins/graph/ETHOS.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/KMD.png" />
+            <span class="market__coin-name">KMD / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 245.21</span>
+            <img src="/assets/icons/coins/graph/KMD.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETP.png" />
+            <span class="market__coin-name">Etp / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 420.83</span>
+            <img src="/assets/icons/coins/graph/ETP.png" />
+          </div>
+        </div>
+        <div class="market__coins" data-id="1">
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTC.png" />
+            <span class="market__coin-name">Bitcoin / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 28,214,25.341</span>
+            <img src="/assets/icons/coins/graph/BTC.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/DGD.png" />
+            <span class="market__coin-name">DGD / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 284.64</span>
+            <img src="/assets/icons/coins/graph/DGD.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETP.png" />
+            <span class="market__coin-name">Etp / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 420.83</span>
+            <img src="/assets/icons/coins/graph/ETP.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTS.png" />
+            <span class="market__coin-name">BTS / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 2,541.12</span>
+            <img src="/assets/icons/coins/graph/BTS.png" />
+          </div>
+
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETHOS.png" />
+            <span class="market__coin-name">Ethos / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 1,146,25.96</span>
+            <img src="/assets/icons/coins/graph/ETHOS.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/KMD.png" />
+            <span class="market__coin-name">KMD / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 245.21</span>
+            <img src="/assets/icons/coins/graph/KMD.png" />
+          </div>
+        </div>
+        <div class="market__coins" data-id="2">
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTS.png" />
+            <span class="market__coin-name">BTS / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 2,541.12</span>
+            <img src="/assets/icons/coins/graph/BTS.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETHOS.png" />
+            <span class="market__coin-name">Ethos / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 1,146,25.96</span>
+            <img src="/assets/icons/coins/graph/ETHOS.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/KMD.png" />
+            <span class="market__coin-name">KMD / BTC</span>
+            <div class="market__coin-stat">
+              <img src="/assets/icons/ArrowBottom.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 245.21</span>
+            <img src="/assets/icons/coins/graph/KMD.png" />
+          </div>
+          <div class="market__coin">
+            <img src="/assets/icons/coins/BTC.png" />
+            <span class="market__coin-name">Bitcoin / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 28,214,25.341</span>
+            <img src="/assets/icons/coins/graph/BTC.png" />
+          </div>
+
+          <div class="market__coin">
+            <img src="/assets/icons/coins/DGD.png" />
+            <span class="market__coin-name">DGD / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 284.64</span>
+            <img src="/assets/icons/coins/graph/DGD.png" />
+          </div>
+
+          <div class="market__coin">
+            <img src="/assets/icons/coins/ETP.png" />
+            <span class="market__coin-name">Etp / BTC</span>
+            <div class="market__coin-stat market__coin-stat--top">
+              <img src="/assets/icons/ArrowTop.svg" /> 5.76%
+            </div>
+            <span class="market__coin-value">₹ 420.83</span>
+            <img src="/assets/icons/coins/graph/ETP.png" />
+          </div>
+        </div>
+        <button class="market__button">See All Market</button>
+      </div>
+      <div class="reviews">
+        <div class="reviews__container">
+          <div class="reviews__text">
+            <div class="reviews__text-title">What Traders Saying About Us!</div>
+
+            <div class="reviews__text-desc">
+              Lorem Ipsum has been the industry's standard dummy text since the
+              1500s, when an unknown printer took a galley of type and scrambled
+              type specimen book.
+            </div>
+          </div>
+
+          <hr />
+
+          <div class="swiper-container reviews__slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__card-user">
+                    <img
+                      src="assets/img/image-user.png"
+                      class="reviews__card-img"
+                    />
+
+                    <div class="reviews__card-text">
+                      <h2 class="reviews__card-name">John Doe</h2>
+
+                      <small class="reviews__card-location">USA, America</small>
+                    </div>
+
+                    <img
+                      src="assets/icons/reviews-icon.svg"
+                      class="reviews__card-icon"
+                    />
+                  </div>
+
+                  <p class="reviews__card-desc">
+                    “ Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. ”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__card-user">
+                    <img
+                      src="assets/img/image-user.png"
+                      class="reviews__card-img"
+                    />
+
+                    <div class="reviews__card-text">
+                      <h2 class="reviews__card-name">John Doe</h2>
+
+                      <small class="reviews__card-location">USA, America</small>
+                    </div>
+
+                    <img
+                      src="assets/icons/reviews-icon.svg"
+                      class="reviews__card-icon"
+                    />
+                  </div>
+
+                  <p class="reviews__card-desc">
+                    “ Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. ”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__card-user">
+                    <img
+                      src="assets/img/image-user.png"
+                      class="reviews__card-img"
+                    />
+
+                    <div class="reviews__card-text">
+                      <h2 class="reviews__card-name">John Doe</h2>
+
+                      <small class="reviews__card-location">USA, America</small>
+                    </div>
+
+                    <img
+                      src="assets/icons/reviews-icon.svg"
+                      class="reviews__card-icon"
+                    />
+                  </div>
+
+                  <p class="reviews__card-desc">
+                    “ Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. ”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__card-user">
+                    <img
+                      src="assets/img/image-user.png"
+                      class="reviews__card-img"
+                    />
+
+                    <div class="reviews__card-text">
+                      <h2 class="reviews__card-name">John Doe</h2>
+
+                      <small class="reviews__card-location">USA, America</small>
+                    </div>
+
+                    <img
+                      src="assets/icons/reviews-icon.svg"
+                      class="reviews__card-icon"
+                    />
+                  </div>
+
+                  <p class="reviews__card-desc">
+                    “ Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. ”
+                  </p>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="reviews__card">
+                  <div class="reviews__card-user">
+                    <img
+                      src="assets/img/image-user.png"
+                      class="reviews__card-img"
+                    />
+
+                    <div class="reviews__card-text">
+                      <h2 class="reviews__card-name">John Doe</h2>
+
+                      <small class="reviews__card-location">USA, America</small>
+                    </div>
+
+                    <img
+                      src="assets/icons/reviews-icon.svg"
+                      class="reviews__card-icon"
+                    />
+                  </div>
+
+                  <p class="reviews__card-desc">
+                    “ Lorem Ipsum has been the industry's standard dummy text
+                    ever since the 1500s, when an unknown printer took a galley
+                    of type and scrambled it to make a type specimen book. ”
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-pagination reviews__slider-pagination"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="questions">
+        <div class="questions__top">
+          <h2>Frequently Asked Questions</h2>
+          <p class="questions__subtitle">
+            When an unknown printer took a galley of type and scrambled it to
+            make a type specimen book.
+          </p>
+        </div>
+        <hr />
+        <div class="questions__accordions">
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span>
+                  What should I do if I enter the Google verification code
+                  incorrectly ?</span
+                >
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span>
+                  What is the difference between Defi and Metaverse ?</span
+                >
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span>
+                  What should I do if Google verification fails to bind ?</span
+                >
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span> How to complete your KYC Verification ?</span>
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+          </div>
+          <div class="accordion">
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span> Can We Enter in Website Without Login or Sign Up ?</span>
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span>
+                  What should I do if I lost the binded phone number ?</span
+                >
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span> How to register an account on the web ?</span>
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+            <div class="accordion-item">
+              <div class="accordion-header">
+                <span> How we Change mobile number ?</span>
+                <img
+                  class="accordion-button"
+                  src="/assets/icons/Cross.svg"
+                  alt=""
+                />
+              </div>
+              <div class="accordion-content">
+                When an unknown printer took a galley of type and scrambled it
+                to make a type specimen book. It has survived not only five
+                centuries, but also the leap into electronic typesetting,
+                remaining essentially unchanged.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__logo">
+            <img src="/assets/img/LogoFooter.png" />
+
+            <div class="footer__community">
+              <span>Community-</span>
+
+              <img
+                src="assets/icons/socials/discord.svg"
+                class="footer__community-icon"
+              />
+              <img
+                src="assets/icons/socials/telegram.svg"
+                class="footer__community-icon"
+              />
+              <img
+                src="assets/icons/socials/instagram.svg"
+                class="footer__community-icon"
+              />
+              <img
+                src="assets/icons/socials/inlinks.svg"
+                class="footer__community-icon"
+              />
+              <img
+                src="assets/icons/socials/youtube.svg"
+                class="footer__community-icon"
+              />
+            </div>
+          </div>
+
+          <hr class="footer__line" />
+
+          <ul class="footer__links">
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Crypto Brains</h2>
+
+              <a class="footer__links-link">About Us</a>
+              <a class="footer__links-link">Our Team</a>
+              <a class="footer__links-link">Road Map</a>
+              <a class="footer__links-link">Risk Disclosure</a>
+            </li>
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Knowledge</h2>
+
+              <a class="footer__links-link">F.A.Q.</a>
+              <a class="footer__links-link">Articals</a>
+              <a class="footer__links-link">Video Tutorial</a>
+              <a class="footer__links-link">Beginner’s Guide</a>
+            </li>
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Services</h2>
+
+              <a class="footer__links-link">API Service</a>
+              <a class="footer__links-link">Token Listing</a>
+              <a class="footer__links-link">API Document</a>
+              <a class="footer__links-link">Ticket Services</a>
+            </li>
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Exchange</h2>
+
+              <a class="footer__links-link">P2P</a>
+              <a class="footer__links-link">Referral</a>
+              <a class="footer__links-link">Markets</a>
+              <a class="footer__links-link">Affiliate Program</a>
+            </li>
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Support Sevice</h2>
+
+              <a class="footer__links-link">
+                Career <span>( We Are Hiring )</span>
+              </a>
+              <a class="footer__links-link">Comunity</a>
+              <a class="footer__links-link">Customer Chat</a>
+              <a class="footer__links-link">Technical Support</a>
+            </li>
+            <li class="footer__links-item">
+              <h2 class="footer__links-title">Press</h2>
+
+              <a class="footer__links-link">Blog</a>
+              <a class="footer__links-link">News</a>
+              <a class="footer__links-link">Events</a>
+            </li>
+          </ul>
+
+          <hr class="footer__line" />
+
+          <div class="footer__bottom">
+            <div class="footer__bottom-copyright">
+              <span>©Copyright 2022 All Rights Are Reserved.</span>
+              <i></i>
+              <span>Privacy Policy</span>
+              <i></i>
+              <span>Terms of Use</span>
+            </div>
+
+            <div class="footer__bottom-langs">
+              <div class="footer__bottom-input">
+                <span>English</span>
+
+                <img src="assets/img/arrow.svg" />
+              </div>
+
+              <div class="footer__bottom-input">
+                <span>INR</span>
+
+                <img src="assets/img/arrow.svg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- Скрипт для работы свайпера -->
+    <script>
+      const mySwiper = new Swiper(".swiper-container", {
+        slidesPerView: 2.4,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          768: {
+            slidesPerView: 2,
+          },
+          375: {
+            slidesPerView: 1,
+          },
+        },
+      });
+    </script>
+
+    <!-- Аккордион -->
+    <script src="assets/js/accordion.js"></script>
+    <!-- Модальное окно -->
+    <script src="assets/js/modal.js"></script>
+    <!-- Табы -->
+    <script src="assets/js/tabs.js"></script>
+    <!-- Бургер меню -->
+    <script src="assets/js/burger.js"></script>
+  </body>
+</html>
